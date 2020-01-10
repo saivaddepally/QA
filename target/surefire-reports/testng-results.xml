@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestExample" duration-ms="14017" started-at="2020-01-09T11:20:34 IST" finished-at="2020-01-09T11:20:48 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="14017" started-at="2020-01-09T11:20:34 IST" finished-at="2020-01-09T11:20:48 IST">
+      <class name="TestExample">
+        <test-method status="PASS" signature="googleSearch()[pri:0, instance:TestExample@42d80b78]" name="googleSearch" is-config="true" duration-ms="4694" started-at="2020-01-09T11:20:34 IST" finished-at="2020-01-09T11:20:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method status="PASS" signature="addCity()[pri:1, instance:TestExample@42d80b78]" name="addCity" duration-ms="1861" started-at="2020-01-09T11:20:39 IST" description="for adding city" finished-at="2020-01-09T11:20:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCity -->
+        <test-method status="PASS" signature="addSecondCity()[pri:2, instance:TestExample@42d80b78]" name="addSecondCity" duration-ms="2132" started-at="2020-01-09T11:20:41 IST" description="adding another city" finished-at="2020-01-09T11:20:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSecondCity -->
+        <test-method status="PASS" signature="swapCities()[pri:3, instance:TestExample@42d80b78]" name="swapCities" duration-ms="1348" started-at="2020-01-09T11:20:43 IST" description="checking swap button" finished-at="2020-01-09T11:20:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- swapCities -->
+        <test-method status="PASS" signature="deleteCity()[pri:4, instance:TestExample@42d80b78]" name="deleteCity" duration-ms="1443" started-at="2020-01-09T11:20:44 IST" description="checking delete operation after selection" finished-at="2020-01-09T11:20:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCity -->
+        <test-method status="PASS" signature="newPage()[pri:5, instance:TestExample@42d80b78]" name="newPage" duration-ms="2333" started-at="2020-01-09T11:20:46 IST" description="redirecting to reference on selecting the city" finished-at="2020-01-09T11:20:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:6, instance:TestExample@42d80b78]" name="closeBrowser" duration-ms="160" started-at="2020-01-09T11:20:48 IST" description="closing the browser" finished-at="2020-01-09T11:20:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestExample -->
+    </test> <!-- Command line test -->
+  </suite> <!-- TestExample -->
+</testng-results>
